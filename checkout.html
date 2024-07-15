@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Keranjang</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+
+    <div class="container" id="checkoutContainer">
+        <h2>Produk di Keranjang</h2>
+        <div class="cart-items"></div>
+        <p>Total: <span id="totalPrice"></span></p>
+        <button onclick="completeCheckout()">Selesaikan Pembelian</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
